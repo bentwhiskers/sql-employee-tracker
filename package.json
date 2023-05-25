@@ -1,0 +1,25 @@
+{
+  "name": "sql-employee-tracker",
+  "version": "1.0.0",
+  "description": "## Description This is a command-line application that would allow a business owner to view and manage the departments, roles, and employees in their company. It accepts user input, and presents the user with a formatted table showing employee data. It demonstrates the four basic operations of persistent storage: Create, Read, Update, and Delete (or CRUD).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bentwhiskers/sql-employee-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/bentwhiskers/sql-employee-tracker/issues"
+  },
+  "homepage": "https://github.com/bentwhiskers/sql-employee-tracker#readme"
+}
